@@ -1,0 +1,66 @@
+@import url("style.css");
+
+:root {
+	--tone-1: #2E9E5B;
+	--tone-2: #3AA665;
+	--tone-3: #4DAF72;
+	--tone-4: #61B981;
+	--tone-5: #78C392;
+	--tone-6: #92CDA5;
+	--tone-7: #ACE0BF;
+	--tone-8: #C6EBD3;
+	--tone-9: #E2F5E9;
+}
+
+::selection {
+	background: var(--tone-1);
+	color: #000;
+}
+::-moz-selection {
+	background: var(--tone-1);
+	color: #000;
+}
+
+body,
+#banner {
+	background: var(--tone-4);
+	color: #000;
+}
+
+body > nav ul li a,
+#main-nav ul li a,
+#main-nav input[type=submit] {
+	color: #000;
+}
+
+#banner aside button,
+.trans .back button {
+	background: var(--tone-2);
+	color: #000;
+	text-shadow: none;
+}
+
+#banner aside button:active,
+.trans .back button:hover {
+	background: var(--tone-1);
+}
+
+.trans .on-sale,
+#main .preview .title,
+#main .preview .circle {
+	background: var(--tone-1);
+	color: #000;
+}
+
+#main .preview li a {
+	background: var(--tone-7);
+	color: #000;
+}
+
+#main .preview .triangle {
+	color: #000;
+}
+
+#main-nav ul li a:hover {
+	background: rgba(172, 224, 191, 0.5);
+}
